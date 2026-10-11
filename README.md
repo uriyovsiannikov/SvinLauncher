@@ -4,7 +4,7 @@
 
 A lightweight **Minecraft: Java Edition** launcher for GNOME, built with GTK4 and libadwaita.
 
-Create vanilla instances, download game files from Minecraft servers, and launch the game directly through Java — no external launcher required.
+Create vanilla instances, download game files from Minecraft servers, and launch the game directly through Java - no external launcher required.
 
 <p align="center"><img src="other/screenshot1.png" alt="SvinLauncher running on GNOME" width="800"></p>
 
@@ -27,4 +27,4 @@ Executable: `build/gtk/svinlauncher`. Java is required to play; downloading Mine
 
 ## Data and license
 
-Licensed under [GPL-3.0-only](LICENSE). This project retains the license notices and attribution for the original Prism Launcher source.
+Licensed under [GPL-3.0-only](LICENSE).

@@ -1,7 +1,7 @@
-CMakeFiles/svinlauncher.dir/instances/instance_store.cpp.o: \
- /home/uriy/Рабочий\ стол/PrismLauncher-Cracked/gtk/instances/instance_store.cpp \
+gtk/CMakeFiles/svinlauncher.dir/instances/instance_store.cpp.o: \
+ /home/uriy/Рабочий\ стол/SvinLaucnher/gtk/instances/instance_store.cpp \
  /usr/include/stdc-predef.h \
- /home/uriy/Рабочий\ стол/PrismLauncher-Cracked/gtk/instances/instance_store.hpp \
+ /home/uriy/Рабочий\ стол/SvinLaucnher/gtk/instances/instance_store.hpp \
  /usr/include/c++/16/filesystem \
  /usr/include/c++/16/bits/requires_hosted.h \
  /usr/include/c++/16/x86_64-redhat-linux/bits/c++config.h \
@@ -98,14 +98,12 @@ CMakeFiles/svinlauncher.dir/instances/instance_store.cpp.o: \
  /usr/include/bits/pthreadtypes-arch.h \
  /usr/include/bits/atomic_wide_counter.h /usr/include/bits/struct_mutex.h \
  /usr/include/bits/struct_rwlock.h /usr/include/alloca.h \
- /usr/include/bits/stdlib-bsearch.h /usr/include/bits/stdlib-float.h \
- /usr/include/c++/16/bits/std_abs.h /usr/include/c++/16/cstdio \
- /usr/include/stdio.h /usr/include/bits/types/__fpos_t.h \
- /usr/include/bits/types/__fpos64_t.h \
+ /usr/include/bits/stdlib-float.h /usr/include/c++/16/bits/std_abs.h \
+ /usr/include/c++/16/cstdio /usr/include/stdio.h \
+ /usr/include/bits/types/__fpos_t.h /usr/include/bits/types/__fpos64_t.h \
  /usr/include/bits/types/struct_FILE.h \
  /usr/include/bits/types/cookie_io_functions_t.h \
- /usr/include/bits/stdio_lim.h /usr/include/bits/stdio.h \
- /usr/include/c++/16/bits/charconv.h \
+ /usr/include/bits/stdio_lim.h /usr/include/c++/16/bits/charconv.h \
  /usr/include/c++/16/bits/basic_string.tcc \
  /usr/include/c++/16/bits/memory_resource.h /usr/include/c++/16/cstddef \
  /usr/include/c++/16/bits/uses_allocator.h \

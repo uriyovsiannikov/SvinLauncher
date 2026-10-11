@@ -7,6 +7,7 @@
 
 struct App {
     AdwApplication* application = nullptr;
+    GtkWindow* window = nullptr;
     GtkListBox* list = nullptr;
     GtkWidget* scroll = nullptr;
     AdwToastOverlay* toasts = nullptr;
@@ -16,6 +17,7 @@ struct App {
     std::filesystem::path root;
     std::filesystem::path instance_dir;
     std::string language;
+    std::string system_language;
     std::set<std::string> running_instances;
 };
 

@@ -53,106 +53,106 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/uriy/Рабочий стол/PrismLauncher-Cracked/gtk"
+CMAKE_SOURCE_DIR = "/home/uriy/Рабочий стол/SvinLaucnher"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk"
+CMAKE_BINARY_DIR = "/home/uriy/Рабочий стол/SvinLaucnher/build"
 
 # Utility rule file for svinlauncher-translations.
 
 # Include any custom commands dependencies for this target.
-include CMakeFiles/svinlauncher-translations.dir/compiler_depend.make
+include gtk/CMakeFiles/svinlauncher-translations.dir/compiler_depend.make
 
 # Include the progress variables for this target.
-include CMakeFiles/svinlauncher-translations.dir/progress.make
+include gtk/CMakeFiles/svinlauncher-translations.dir/progress.make
 
-CMakeFiles/svinlauncher-translations: locale/ru/LC_MESSAGES/svinlauncher.mo
-CMakeFiles/svinlauncher-translations: locale/en/LC_MESSAGES/svinlauncher.mo
-CMakeFiles/svinlauncher-translations: locale/es/LC_MESSAGES/svinlauncher.mo
-CMakeFiles/svinlauncher-translations: locale/pt_BR/LC_MESSAGES/svinlauncher.mo
-CMakeFiles/svinlauncher-translations: locale/fr/LC_MESSAGES/svinlauncher.mo
-CMakeFiles/svinlauncher-translations: locale/de/LC_MESSAGES/svinlauncher.mo
-CMakeFiles/svinlauncher-translations: locale/zh_CN/LC_MESSAGES/svinlauncher.mo
-CMakeFiles/svinlauncher-translations: locale/ja/LC_MESSAGES/svinlauncher.mo
-CMakeFiles/svinlauncher-translations: locale/ko/LC_MESSAGES/svinlauncher.mo
-CMakeFiles/svinlauncher-translations: locale/pl/LC_MESSAGES/svinlauncher.mo
+gtk/CMakeFiles/svinlauncher-translations: gtk/locale/ru/LC_MESSAGES/svinlauncher.mo
+gtk/CMakeFiles/svinlauncher-translations: gtk/locale/en/LC_MESSAGES/svinlauncher.mo
+gtk/CMakeFiles/svinlauncher-translations: gtk/locale/es/LC_MESSAGES/svinlauncher.mo
+gtk/CMakeFiles/svinlauncher-translations: gtk/locale/pt_BR/LC_MESSAGES/svinlauncher.mo
+gtk/CMakeFiles/svinlauncher-translations: gtk/locale/fr/LC_MESSAGES/svinlauncher.mo
+gtk/CMakeFiles/svinlauncher-translations: gtk/locale/de/LC_MESSAGES/svinlauncher.mo
+gtk/CMakeFiles/svinlauncher-translations: gtk/locale/zh_CN/LC_MESSAGES/svinlauncher.mo
+gtk/CMakeFiles/svinlauncher-translations: gtk/locale/ja/LC_MESSAGES/svinlauncher.mo
+gtk/CMakeFiles/svinlauncher-translations: gtk/locale/ko/LC_MESSAGES/svinlauncher.mo
+gtk/CMakeFiles/svinlauncher-translations: gtk/locale/pl/LC_MESSAGES/svinlauncher.mo
 
-locale/de/LC_MESSAGES/svinlauncher.mo: /home/uriy/Рабочий\ стол/PrismLauncher-Cracked/gtk/po/de.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Generating locale/de/LC_MESSAGES/svinlauncher.mo"
-	/usr/bin/cmake -E make_directory "/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/locale/de/LC_MESSAGES"
-	/usr/bin/msgfmt -o "/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/locale/de/LC_MESSAGES/svinlauncher.mo" "/home/uriy/Рабочий стол/PrismLauncher-Cracked/gtk/po/de.po"
+gtk/locale/de/LC_MESSAGES/svinlauncher.mo: /home/uriy/Рабочий\ стол/SvinLaucnher/gtk/po/de.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/uriy/Рабочий стол/SvinLaucnher/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Generating locale/de/LC_MESSAGES/svinlauncher.mo"
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk" && /usr/bin/cmake -E make_directory "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk/locale/de/LC_MESSAGES"
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk" && /usr/bin/msgfmt -o "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk/locale/de/LC_MESSAGES/svinlauncher.mo" "/home/uriy/Рабочий стол/SvinLaucnher/gtk/po/de.po"
 
-locale/en/LC_MESSAGES/svinlauncher.mo: /home/uriy/Рабочий\ стол/PrismLauncher-Cracked/gtk/po/en.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Generating locale/en/LC_MESSAGES/svinlauncher.mo"
-	/usr/bin/cmake -E make_directory "/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/locale/en/LC_MESSAGES"
-	/usr/bin/msgfmt -o "/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/locale/en/LC_MESSAGES/svinlauncher.mo" "/home/uriy/Рабочий стол/PrismLauncher-Cracked/gtk/po/en.po"
+gtk/locale/en/LC_MESSAGES/svinlauncher.mo: /home/uriy/Рабочий\ стол/SvinLaucnher/gtk/po/en.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/uriy/Рабочий стол/SvinLaucnher/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Generating locale/en/LC_MESSAGES/svinlauncher.mo"
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk" && /usr/bin/cmake -E make_directory "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk/locale/en/LC_MESSAGES"
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk" && /usr/bin/msgfmt -o "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk/locale/en/LC_MESSAGES/svinlauncher.mo" "/home/uriy/Рабочий стол/SvinLaucnher/gtk/po/en.po"
 
-locale/es/LC_MESSAGES/svinlauncher.mo: /home/uriy/Рабочий\ стол/PrismLauncher-Cracked/gtk/po/es.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Generating locale/es/LC_MESSAGES/svinlauncher.mo"
-	/usr/bin/cmake -E make_directory "/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/locale/es/LC_MESSAGES"
-	/usr/bin/msgfmt -o "/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/locale/es/LC_MESSAGES/svinlauncher.mo" "/home/uriy/Рабочий стол/PrismLauncher-Cracked/gtk/po/es.po"
+gtk/locale/es/LC_MESSAGES/svinlauncher.mo: /home/uriy/Рабочий\ стол/SvinLaucnher/gtk/po/es.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/uriy/Рабочий стол/SvinLaucnher/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Generating locale/es/LC_MESSAGES/svinlauncher.mo"
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk" && /usr/bin/cmake -E make_directory "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk/locale/es/LC_MESSAGES"
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk" && /usr/bin/msgfmt -o "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk/locale/es/LC_MESSAGES/svinlauncher.mo" "/home/uriy/Рабочий стол/SvinLaucnher/gtk/po/es.po"
 
-locale/fr/LC_MESSAGES/svinlauncher.mo: /home/uriy/Рабочий\ стол/PrismLauncher-Cracked/gtk/po/fr.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Generating locale/fr/LC_MESSAGES/svinlauncher.mo"
-	/usr/bin/cmake -E make_directory "/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/locale/fr/LC_MESSAGES"
-	/usr/bin/msgfmt -o "/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/locale/fr/LC_MESSAGES/svinlauncher.mo" "/home/uriy/Рабочий стол/PrismLauncher-Cracked/gtk/po/fr.po"
+gtk/locale/fr/LC_MESSAGES/svinlauncher.mo: /home/uriy/Рабочий\ стол/SvinLaucnher/gtk/po/fr.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/uriy/Рабочий стол/SvinLaucnher/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Generating locale/fr/LC_MESSAGES/svinlauncher.mo"
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk" && /usr/bin/cmake -E make_directory "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk/locale/fr/LC_MESSAGES"
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk" && /usr/bin/msgfmt -o "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk/locale/fr/LC_MESSAGES/svinlauncher.mo" "/home/uriy/Рабочий стол/SvinLaucnher/gtk/po/fr.po"
 
-locale/ja/LC_MESSAGES/svinlauncher.mo: /home/uriy/Рабочий\ стол/PrismLauncher-Cracked/gtk/po/ja.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Generating locale/ja/LC_MESSAGES/svinlauncher.mo"
-	/usr/bin/cmake -E make_directory "/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/locale/ja/LC_MESSAGES"
-	/usr/bin/msgfmt -o "/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/locale/ja/LC_MESSAGES/svinlauncher.mo" "/home/uriy/Рабочий стол/PrismLauncher-Cracked/gtk/po/ja.po"
+gtk/locale/ja/LC_MESSAGES/svinlauncher.mo: /home/uriy/Рабочий\ стол/SvinLaucnher/gtk/po/ja.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/uriy/Рабочий стол/SvinLaucnher/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Generating locale/ja/LC_MESSAGES/svinlauncher.mo"
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk" && /usr/bin/cmake -E make_directory "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk/locale/ja/LC_MESSAGES"
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk" && /usr/bin/msgfmt -o "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk/locale/ja/LC_MESSAGES/svinlauncher.mo" "/home/uriy/Рабочий стол/SvinLaucnher/gtk/po/ja.po"
 
-locale/ko/LC_MESSAGES/svinlauncher.mo: /home/uriy/Рабочий\ стол/PrismLauncher-Cracked/gtk/po/ko.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Generating locale/ko/LC_MESSAGES/svinlauncher.mo"
-	/usr/bin/cmake -E make_directory "/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/locale/ko/LC_MESSAGES"
-	/usr/bin/msgfmt -o "/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/locale/ko/LC_MESSAGES/svinlauncher.mo" "/home/uriy/Рабочий стол/PrismLauncher-Cracked/gtk/po/ko.po"
+gtk/locale/ko/LC_MESSAGES/svinlauncher.mo: /home/uriy/Рабочий\ стол/SvinLaucnher/gtk/po/ko.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/uriy/Рабочий стол/SvinLaucnher/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Generating locale/ko/LC_MESSAGES/svinlauncher.mo"
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk" && /usr/bin/cmake -E make_directory "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk/locale/ko/LC_MESSAGES"
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk" && /usr/bin/msgfmt -o "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk/locale/ko/LC_MESSAGES/svinlauncher.mo" "/home/uriy/Рабочий стол/SvinLaucnher/gtk/po/ko.po"
 
-locale/pl/LC_MESSAGES/svinlauncher.mo: /home/uriy/Рабочий\ стол/PrismLauncher-Cracked/gtk/po/pl.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Generating locale/pl/LC_MESSAGES/svinlauncher.mo"
-	/usr/bin/cmake -E make_directory "/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/locale/pl/LC_MESSAGES"
-	/usr/bin/msgfmt -o "/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/locale/pl/LC_MESSAGES/svinlauncher.mo" "/home/uriy/Рабочий стол/PrismLauncher-Cracked/gtk/po/pl.po"
+gtk/locale/pl/LC_MESSAGES/svinlauncher.mo: /home/uriy/Рабочий\ стол/SvinLaucnher/gtk/po/pl.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/uriy/Рабочий стол/SvinLaucnher/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Generating locale/pl/LC_MESSAGES/svinlauncher.mo"
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk" && /usr/bin/cmake -E make_directory "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk/locale/pl/LC_MESSAGES"
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk" && /usr/bin/msgfmt -o "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk/locale/pl/LC_MESSAGES/svinlauncher.mo" "/home/uriy/Рабочий стол/SvinLaucnher/gtk/po/pl.po"
 
-locale/pt_BR/LC_MESSAGES/svinlauncher.mo: /home/uriy/Рабочий\ стол/PrismLauncher-Cracked/gtk/po/pt_BR.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Generating locale/pt_BR/LC_MESSAGES/svinlauncher.mo"
-	/usr/bin/cmake -E make_directory "/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/locale/pt_BR/LC_MESSAGES"
-	/usr/bin/msgfmt -o "/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/locale/pt_BR/LC_MESSAGES/svinlauncher.mo" "/home/uriy/Рабочий стол/PrismLauncher-Cracked/gtk/po/pt_BR.po"
+gtk/locale/pt_BR/LC_MESSAGES/svinlauncher.mo: /home/uriy/Рабочий\ стол/SvinLaucnher/gtk/po/pt_BR.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/uriy/Рабочий стол/SvinLaucnher/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Generating locale/pt_BR/LC_MESSAGES/svinlauncher.mo"
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk" && /usr/bin/cmake -E make_directory "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk/locale/pt_BR/LC_MESSAGES"
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk" && /usr/bin/msgfmt -o "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk/locale/pt_BR/LC_MESSAGES/svinlauncher.mo" "/home/uriy/Рабочий стол/SvinLaucnher/gtk/po/pt_BR.po"
 
-locale/ru/LC_MESSAGES/svinlauncher.mo: /home/uriy/Рабочий\ стол/PrismLauncher-Cracked/gtk/po/ru.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Generating locale/ru/LC_MESSAGES/svinlauncher.mo"
-	/usr/bin/cmake -E make_directory "/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/locale/ru/LC_MESSAGES"
-	/usr/bin/msgfmt -o "/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/locale/ru/LC_MESSAGES/svinlauncher.mo" "/home/uriy/Рабочий стол/PrismLauncher-Cracked/gtk/po/ru.po"
+gtk/locale/ru/LC_MESSAGES/svinlauncher.mo: /home/uriy/Рабочий\ стол/SvinLaucnher/gtk/po/ru.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/uriy/Рабочий стол/SvinLaucnher/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Generating locale/ru/LC_MESSAGES/svinlauncher.mo"
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk" && /usr/bin/cmake -E make_directory "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk/locale/ru/LC_MESSAGES"
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk" && /usr/bin/msgfmt -o "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk/locale/ru/LC_MESSAGES/svinlauncher.mo" "/home/uriy/Рабочий стол/SvinLaucnher/gtk/po/ru.po"
 
-locale/zh_CN/LC_MESSAGES/svinlauncher.mo: /home/uriy/Рабочий\ стол/PrismLauncher-Cracked/gtk/po/zh_CN.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Generating locale/zh_CN/LC_MESSAGES/svinlauncher.mo"
-	/usr/bin/cmake -E make_directory "/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/locale/zh_CN/LC_MESSAGES"
-	/usr/bin/msgfmt -o "/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/locale/zh_CN/LC_MESSAGES/svinlauncher.mo" "/home/uriy/Рабочий стол/PrismLauncher-Cracked/gtk/po/zh_CN.po"
+gtk/locale/zh_CN/LC_MESSAGES/svinlauncher.mo: /home/uriy/Рабочий\ стол/SvinLaucnher/gtk/po/zh_CN.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/uriy/Рабочий стол/SvinLaucnher/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Generating locale/zh_CN/LC_MESSAGES/svinlauncher.mo"
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk" && /usr/bin/cmake -E make_directory "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk/locale/zh_CN/LC_MESSAGES"
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk" && /usr/bin/msgfmt -o "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk/locale/zh_CN/LC_MESSAGES/svinlauncher.mo" "/home/uriy/Рабочий стол/SvinLaucnher/gtk/po/zh_CN.po"
 
-CMakeFiles/svinlauncher-translations.dir/codegen:
-.PHONY : CMakeFiles/svinlauncher-translations.dir/codegen
+gtk/CMakeFiles/svinlauncher-translations.dir/codegen:
+.PHONY : gtk/CMakeFiles/svinlauncher-translations.dir/codegen
 
-svinlauncher-translations: CMakeFiles/svinlauncher-translations
-svinlauncher-translations: locale/de/LC_MESSAGES/svinlauncher.mo
-svinlauncher-translations: locale/en/LC_MESSAGES/svinlauncher.mo
-svinlauncher-translations: locale/es/LC_MESSAGES/svinlauncher.mo
-svinlauncher-translations: locale/fr/LC_MESSAGES/svinlauncher.mo
-svinlauncher-translations: locale/ja/LC_MESSAGES/svinlauncher.mo
-svinlauncher-translations: locale/ko/LC_MESSAGES/svinlauncher.mo
-svinlauncher-translations: locale/pl/LC_MESSAGES/svinlauncher.mo
-svinlauncher-translations: locale/pt_BR/LC_MESSAGES/svinlauncher.mo
-svinlauncher-translations: locale/ru/LC_MESSAGES/svinlauncher.mo
-svinlauncher-translations: locale/zh_CN/LC_MESSAGES/svinlauncher.mo
-svinlauncher-translations: CMakeFiles/svinlauncher-translations.dir/build.make
+svinlauncher-translations: gtk/CMakeFiles/svinlauncher-translations
+svinlauncher-translations: gtk/locale/de/LC_MESSAGES/svinlauncher.mo
+svinlauncher-translations: gtk/locale/en/LC_MESSAGES/svinlauncher.mo
+svinlauncher-translations: gtk/locale/es/LC_MESSAGES/svinlauncher.mo
+svinlauncher-translations: gtk/locale/fr/LC_MESSAGES/svinlauncher.mo
+svinlauncher-translations: gtk/locale/ja/LC_MESSAGES/svinlauncher.mo
+svinlauncher-translations: gtk/locale/ko/LC_MESSAGES/svinlauncher.mo
+svinlauncher-translations: gtk/locale/pl/LC_MESSAGES/svinlauncher.mo
+svinlauncher-translations: gtk/locale/pt_BR/LC_MESSAGES/svinlauncher.mo
+svinlauncher-translations: gtk/locale/ru/LC_MESSAGES/svinlauncher.mo
+svinlauncher-translations: gtk/locale/zh_CN/LC_MESSAGES/svinlauncher.mo
+svinlauncher-translations: gtk/CMakeFiles/svinlauncher-translations.dir/build.make
 .PHONY : svinlauncher-translations
 
 # Rule to build all files generated by this target.
-CMakeFiles/svinlauncher-translations.dir/build: svinlauncher-translations
-.PHONY : CMakeFiles/svinlauncher-translations.dir/build
+gtk/CMakeFiles/svinlauncher-translations.dir/build: svinlauncher-translations
+.PHONY : gtk/CMakeFiles/svinlauncher-translations.dir/build
 
-CMakeFiles/svinlauncher-translations.dir/clean:
-	$(CMAKE_COMMAND) -P CMakeFiles/svinlauncher-translations.dir/cmake_clean.cmake
-.PHONY : CMakeFiles/svinlauncher-translations.dir/clean
+gtk/CMakeFiles/svinlauncher-translations.dir/clean:
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk" && $(CMAKE_COMMAND) -P CMakeFiles/svinlauncher-translations.dir/cmake_clean.cmake
+.PHONY : gtk/CMakeFiles/svinlauncher-translations.dir/clean
 
-CMakeFiles/svinlauncher-translations.dir/depend:
-	cd "/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/uriy/Рабочий стол/PrismLauncher-Cracked/gtk" "/home/uriy/Рабочий стол/PrismLauncher-Cracked/gtk" "/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk" "/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk" "/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/CMakeFiles/svinlauncher-translations.dir/DependInfo.cmake" "--color=$(COLOR)" svinlauncher-translations
-.PHONY : CMakeFiles/svinlauncher-translations.dir/depend
+gtk/CMakeFiles/svinlauncher-translations.dir/depend:
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/uriy/Рабочий стол/SvinLaucnher" "/home/uriy/Рабочий стол/SvinLaucnher/gtk" "/home/uriy/Рабочий стол/SvinLaucnher/build" "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk" "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk/CMakeFiles/svinlauncher-translations.dir/DependInfo.cmake" "--color=$(COLOR)" svinlauncher-translations
+.PHONY : gtk/CMakeFiles/svinlauncher-translations.dir/depend
 

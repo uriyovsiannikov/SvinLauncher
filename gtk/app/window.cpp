@@ -11,6 +11,7 @@ void activate(GApplication* application, gpointer data)
 {
     auto* app = static_cast<App*>(data);
     auto* window = adw_application_window_new(GTK_APPLICATION(application));
+    app->window = GTK_WINDOW(window);
     gtk_window_set_title(GTK_WINDOW(window), "SvinLauncher");
     gtk_window_set_icon_name(GTK_WINDOW(window), SVIN_APP_ID);
     gtk_window_set_default_size(GTK_WINDOW(window), 720, 560);

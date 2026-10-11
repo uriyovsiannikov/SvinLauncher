@@ -30,14 +30,21 @@ int main(int argc, char** argv)
     auto configured = read_setting(root / "svinlauncher.cfg", "InstanceDir");
     const auto language = read_setting(root / "svinlauncher.cfg", "Language");
     setlocale(LC_ALL, "");
+    std::string system_language;
+    if (const char* environment_language = std::getenv("LANGUAGE"); environment_language && *environment_language) {
+        system_language = environment_language;
+    } else {
+        const char* const* system_languages = g_get_language_names();
+        if (system_languages && system_languages[0]) system_language = system_languages[0];
+        const auto suffix = system_language.find_first_of("_.@-");
+        if (suffix != std::string::npos) system_language.resize(suffix);
+        if (!system_language.empty() && system_language != "C" && system_language != "POSIX")
+            system_language += ":en";
+        else system_language.clear();
+    }
     if (!std::getenv("LANGUAGE")) {
         std::string preferred_language = language;
-        if (preferred_language.empty()) {
-            const char* const* system_languages = g_get_language_names();
-            if (system_languages && system_languages[0]) preferred_language = system_languages[0];
-            const auto suffix = preferred_language.find_first_of("_.@-");
-            if (suffix != std::string::npos) preferred_language.resize(suffix);
-        }
+        if (preferred_language.empty()) preferred_language = system_language.substr(0, system_language.find(':'));
         if (!preferred_language.empty() && preferred_language != "C" && preferred_language != "POSIX") {
             const auto language_chain = preferred_language == "ru" ? preferred_language : preferred_language + ":en";
             setenv("LANGUAGE", language_chain.c_str(), 1);
@@ -50,8 +57,12 @@ int main(int argc, char** argv)
     textdomain("svinlauncher");
     fs::path instance_dir = configured.empty() ? root / "instances" : fs::path(configured);
     if (instance_dir.is_relative()) instance_dir = root / instance_dir;
-    App app{ADW_APPLICATION(adw_application_new(SVIN_APP_ID, G_APPLICATION_DEFAULT_FLAGS)), nullptr, nullptr, nullptr, nullptr, nullptr, nullptr,
-            root, instance_dir, language, {}};
+    App app;
+    app.application = ADW_APPLICATION(adw_application_new(SVIN_APP_ID, G_APPLICATION_DEFAULT_FLAGS));
+    app.root = root;
+    app.instance_dir = instance_dir;
+    app.language = language;
+    app.system_language = system_language;
     g_signal_connect(app.application, "activate", G_CALLBACK(activate), &app);
     auto status = g_application_run(G_APPLICATION(app.application), argc, argv);
     g_object_unref(app.application);

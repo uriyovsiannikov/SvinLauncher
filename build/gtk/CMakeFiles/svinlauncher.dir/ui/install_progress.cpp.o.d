@@ -1,8 +1,8 @@
-CMakeFiles/svinlauncher.dir/ui/install_progress.cpp.o: \
- /home/uriy/Рабочий\ стол/PrismLauncher-Cracked/gtk/ui/install_progress.cpp \
+gtk/CMakeFiles/svinlauncher.dir/ui/install_progress.cpp.o: \
+ /home/uriy/Рабочий\ стол/SvinLaucnher/gtk/ui/install_progress.cpp \
  /usr/include/stdc-predef.h \
- /home/uriy/Рабочий\ стол/PrismLauncher-Cracked/gtk/ui/install_progress.hpp \
- /home/uriy/Рабочий\ стол/PrismLauncher-Cracked/gtk/ui/../app/app.hpp \
+ /home/uriy/Рабочий\ стол/SvinLaucnher/gtk/ui/install_progress.hpp \
+ /home/uriy/Рабочий\ стол/SvinLaucnher/gtk/ui/../app/app.hpp \
  /usr/include/libadwaita-1/adwaita.h /usr/include/gtk-4.0/gtk/gtk.h \
  /usr/include/gtk-4.0/gtk/css/gtkcss.h /usr/include/glib-2.0/glib.h \
  /usr/include/glib-2.0/glib/galloca.h /usr/include/glib-2.0/glib/gtypes.h \
@@ -59,8 +59,7 @@ CMakeFiles/svinlauncher.dir/ui/install_progress.cpp.o: \
  /usr/include/bits/pthreadtypes-arch.h \
  /usr/include/bits/atomic_wide_counter.h /usr/include/bits/struct_mutex.h \
  /usr/include/bits/struct_rwlock.h /usr/include/alloca.h \
- /usr/include/bits/stdlib-bsearch.h /usr/include/bits/stdlib-float.h \
- /usr/include/c++/16/bits/std_abs.h \
+ /usr/include/bits/stdlib-float.h /usr/include/c++/16/bits/std_abs.h \
  /usr/include/glib-2.0/glib/gbacktrace.h /usr/include/signal.h \
  /usr/include/bits/signum-generic.h /usr/include/bits/signum-arch.h \
  /usr/include/bits/types/sig_atomic_t.h \
@@ -389,9 +388,8 @@ CMakeFiles/svinlauncher.dir/ui/install_progress.cpp.o: \
  /usr/include/bits/types/__fpos64_t.h /usr/include/bits/types/__FILE.h \
  /usr/include/bits/types/FILE.h /usr/include/bits/types/struct_FILE.h \
  /usr/include/bits/types/cookie_io_functions_t.h \
- /usr/include/bits/stdio_lim.h /usr/include/bits/stdio.h \
- /usr/include/gtk-4.0/gdk/gdkconfig.h /usr/include/gtk-4.0/gdk/gdkenums.h \
- /usr/include/gtk-4.0/gdk/gdkcairo.h \
+ /usr/include/bits/stdio_lim.h /usr/include/gtk-4.0/gdk/gdkconfig.h \
+ /usr/include/gtk-4.0/gdk/gdkenums.h /usr/include/gtk-4.0/gdk/gdkcairo.h \
  /usr/include/gtk-4.0/gdk/deprecated/gdkpixbuf.h \
  /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h \
  /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h \
@@ -1029,7 +1027,7 @@ CMakeFiles/svinlauncher.dir/ui/install_progress.cpp.o: \
  /usr/include/c++/16/bits/node_handle.h \
  /usr/include/c++/16/bits/stl_set.h \
  /usr/include/c++/16/bits/stl_multiset.h \
- /home/uriy/Рабочий\ стол/PrismLauncher-Cracked/gtk/ui/../minecraft/installer.hpp \
+ /home/uriy/Рабочий\ стол/SvinLaucnher/gtk/ui/../minecraft/installer.hpp \
  /usr/include/c++/16/functional /usr/include/c++/16/bits/std_function.h \
  /usr/include/c++/16/unordered_map \
  /usr/include/c++/16/bits/unordered_map.h \
@@ -1051,7 +1049,7 @@ CMakeFiles/svinlauncher.dir/ui/install_progress.cpp.o: \
  /usr/include/c++/16/bits/ranges_algobase.h \
  /usr/include/c++/16/pstl/glue_memory_defs.h \
  /usr/include/c++/16/pstl/execution_defs.h \
- /home/uriy/Рабочий\ стол/PrismLauncher-Cracked/gtk/ui/../app/i18n.hpp \
+ /home/uriy/Рабочий\ стол/SvinLaucnher/gtk/ui/../app/i18n.hpp \
  /usr/include/c++/16/algorithm /usr/include/c++/16/bits/stl_algo.h \
  /usr/include/c++/16/bits/algorithmfwd.h \
  /usr/include/c++/16/bits/stl_heap.h \

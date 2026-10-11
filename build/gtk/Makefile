@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/uriy/Рабочий стол/PrismLauncher-Cracked/gtk"
+CMAKE_SOURCE_DIR = "/home/uriy/Рабочий стол/SvinLaucnher"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk"
+CMAKE_BINARY_DIR = "/home/uriy/Рабочий стол/SvinLaucnher/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/CMakeFiles" "/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk//CMakeFiles/progress.marks"
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/CMakeFiles" 0
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/uriy/Рабочий стол/SvinLaucnher/build/CMakeFiles" "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk//CMakeFiles/progress.marks"
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtk/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/uriy/Рабочий стол/SvinLaucnher/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtk/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,43 +148,45 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtk/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtk/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named svinlauncher
+# Convenience name for target.
+gtk/CMakeFiles/svinlauncher.dir/rule:
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtk/CMakeFiles/svinlauncher.dir/rule
+.PHONY : gtk/CMakeFiles/svinlauncher.dir/rule
 
-# Build rule for target.
-svinlauncher: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 svinlauncher
+# Convenience name for target.
+svinlauncher: gtk/CMakeFiles/svinlauncher.dir/rule
 .PHONY : svinlauncher
 
 # fast build rule for target.
 svinlauncher/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/svinlauncher.dir/build.make CMakeFiles/svinlauncher.dir/build
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(MAKE) $(MAKESILENT) -f gtk/CMakeFiles/svinlauncher.dir/build.make gtk/CMakeFiles/svinlauncher.dir/build
 .PHONY : svinlauncher/fast
 
-#=============================================================================
-# Target rules for targets named svinlauncher-translations
+# Convenience name for target.
+gtk/CMakeFiles/svinlauncher-translations.dir/rule:
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtk/CMakeFiles/svinlauncher-translations.dir/rule
+.PHONY : gtk/CMakeFiles/svinlauncher-translations.dir/rule
 
-# Build rule for target.
-svinlauncher-translations: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 svinlauncher-translations
+# Convenience name for target.
+svinlauncher-translations: gtk/CMakeFiles/svinlauncher-translations.dir/rule
 .PHONY : svinlauncher-translations
 
 # fast build rule for target.
 svinlauncher-translations/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/svinlauncher-translations.dir/build.make CMakeFiles/svinlauncher-translations.dir/build
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(MAKE) $(MAKESILENT) -f gtk/CMakeFiles/svinlauncher-translations.dir/build.make gtk/CMakeFiles/svinlauncher-translations.dir/build
 .PHONY : svinlauncher-translations/fast
 
 app/main.o: app/main.cpp.o
@@ -192,7 +194,7 @@ app/main.o: app/main.cpp.o
 
 # target to build an object file
 app/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/svinlauncher.dir/build.make CMakeFiles/svinlauncher.dir/app/main.cpp.o
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(MAKE) $(MAKESILENT) -f gtk/CMakeFiles/svinlauncher.dir/build.make gtk/CMakeFiles/svinlauncher.dir/app/main.cpp.o
 .PHONY : app/main.cpp.o
 
 app/main.i: app/main.cpp.i
@@ -200,7 +202,7 @@ app/main.i: app/main.cpp.i
 
 # target to preprocess a source file
 app/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/svinlauncher.dir/build.make CMakeFiles/svinlauncher.dir/app/main.cpp.i
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(MAKE) $(MAKESILENT) -f gtk/CMakeFiles/svinlauncher.dir/build.make gtk/CMakeFiles/svinlauncher.dir/app/main.cpp.i
 .PHONY : app/main.cpp.i
 
 app/main.s: app/main.cpp.s
@@ -208,7 +210,7 @@ app/main.s: app/main.cpp.s
 
 # target to generate assembly for a file
 app/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/svinlauncher.dir/build.make CMakeFiles/svinlauncher.dir/app/main.cpp.s
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(MAKE) $(MAKESILENT) -f gtk/CMakeFiles/svinlauncher.dir/build.make gtk/CMakeFiles/svinlauncher.dir/app/main.cpp.s
 .PHONY : app/main.cpp.s
 
 app/notifications.o: app/notifications.cpp.o
@@ -216,7 +218,7 @@ app/notifications.o: app/notifications.cpp.o
 
 # target to build an object file
 app/notifications.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/svinlauncher.dir/build.make CMakeFiles/svinlauncher.dir/app/notifications.cpp.o
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(MAKE) $(MAKESILENT) -f gtk/CMakeFiles/svinlauncher.dir/build.make gtk/CMakeFiles/svinlauncher.dir/app/notifications.cpp.o
 .PHONY : app/notifications.cpp.o
 
 app/notifications.i: app/notifications.cpp.i
@@ -224,7 +226,7 @@ app/notifications.i: app/notifications.cpp.i
 
 # target to preprocess a source file
 app/notifications.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/svinlauncher.dir/build.make CMakeFiles/svinlauncher.dir/app/notifications.cpp.i
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(MAKE) $(MAKESILENT) -f gtk/CMakeFiles/svinlauncher.dir/build.make gtk/CMakeFiles/svinlauncher.dir/app/notifications.cpp.i
 .PHONY : app/notifications.cpp.i
 
 app/notifications.s: app/notifications.cpp.s
@@ -232,7 +234,7 @@ app/notifications.s: app/notifications.cpp.s
 
 # target to generate assembly for a file
 app/notifications.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/svinlauncher.dir/build.make CMakeFiles/svinlauncher.dir/app/notifications.cpp.s
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(MAKE) $(MAKESILENT) -f gtk/CMakeFiles/svinlauncher.dir/build.make gtk/CMakeFiles/svinlauncher.dir/app/notifications.cpp.s
 .PHONY : app/notifications.cpp.s
 
 app/settings.o: app/settings.cpp.o
@@ -240,7 +242,7 @@ app/settings.o: app/settings.cpp.o
 
 # target to build an object file
 app/settings.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/svinlauncher.dir/build.make CMakeFiles/svinlauncher.dir/app/settings.cpp.o
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(MAKE) $(MAKESILENT) -f gtk/CMakeFiles/svinlauncher.dir/build.make gtk/CMakeFiles/svinlauncher.dir/app/settings.cpp.o
 .PHONY : app/settings.cpp.o
 
 app/settings.i: app/settings.cpp.i
@@ -248,7 +250,7 @@ app/settings.i: app/settings.cpp.i
 
 # target to preprocess a source file
 app/settings.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/svinlauncher.dir/build.make CMakeFiles/svinlauncher.dir/app/settings.cpp.i
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(MAKE) $(MAKESILENT) -f gtk/CMakeFiles/svinlauncher.dir/build.make gtk/CMakeFiles/svinlauncher.dir/app/settings.cpp.i
 .PHONY : app/settings.cpp.i
 
 app/settings.s: app/settings.cpp.s
@@ -256,7 +258,7 @@ app/settings.s: app/settings.cpp.s
 
 # target to generate assembly for a file
 app/settings.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/svinlauncher.dir/build.make CMakeFiles/svinlauncher.dir/app/settings.cpp.s
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(MAKE) $(MAKESILENT) -f gtk/CMakeFiles/svinlauncher.dir/build.make gtk/CMakeFiles/svinlauncher.dir/app/settings.cpp.s
 .PHONY : app/settings.cpp.s
 
 app/window.o: app/window.cpp.o
@@ -264,7 +266,7 @@ app/window.o: app/window.cpp.o
 
 # target to build an object file
 app/window.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/svinlauncher.dir/build.make CMakeFiles/svinlauncher.dir/app/window.cpp.o
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(MAKE) $(MAKESILENT) -f gtk/CMakeFiles/svinlauncher.dir/build.make gtk/CMakeFiles/svinlauncher.dir/app/window.cpp.o
 .PHONY : app/window.cpp.o
 
 app/window.i: app/window.cpp.i
@@ -272,7 +274,7 @@ app/window.i: app/window.cpp.i
 
 # target to preprocess a source file
 app/window.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/svinlauncher.dir/build.make CMakeFiles/svinlauncher.dir/app/window.cpp.i
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(MAKE) $(MAKESILENT) -f gtk/CMakeFiles/svinlauncher.dir/build.make gtk/CMakeFiles/svinlauncher.dir/app/window.cpp.i
 .PHONY : app/window.cpp.i
 
 app/window.s: app/window.cpp.s
@@ -280,7 +282,7 @@ app/window.s: app/window.cpp.s
 
 # target to generate assembly for a file
 app/window.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/svinlauncher.dir/build.make CMakeFiles/svinlauncher.dir/app/window.cpp.s
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(MAKE) $(MAKESILENT) -f gtk/CMakeFiles/svinlauncher.dir/build.make gtk/CMakeFiles/svinlauncher.dir/app/window.cpp.s
 .PHONY : app/window.cpp.s
 
 instances/create_dialog.o: instances/create_dialog.cpp.o
@@ -288,7 +290,7 @@ instances/create_dialog.o: instances/create_dialog.cpp.o
 
 # target to build an object file
 instances/create_dialog.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/svinlauncher.dir/build.make CMakeFiles/svinlauncher.dir/instances/create_dialog.cpp.o
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(MAKE) $(MAKESILENT) -f gtk/CMakeFiles/svinlauncher.dir/build.make gtk/CMakeFiles/svinlauncher.dir/instances/create_dialog.cpp.o
 .PHONY : instances/create_dialog.cpp.o
 
 instances/create_dialog.i: instances/create_dialog.cpp.i
@@ -296,7 +298,7 @@ instances/create_dialog.i: instances/create_dialog.cpp.i
 
 # target to preprocess a source file
 instances/create_dialog.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/svinlauncher.dir/build.make CMakeFiles/svinlauncher.dir/instances/create_dialog.cpp.i
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(MAKE) $(MAKESILENT) -f gtk/CMakeFiles/svinlauncher.dir/build.make gtk/CMakeFiles/svinlauncher.dir/instances/create_dialog.cpp.i
 .PHONY : instances/create_dialog.cpp.i
 
 instances/create_dialog.s: instances/create_dialog.cpp.s
@@ -304,7 +306,7 @@ instances/create_dialog.s: instances/create_dialog.cpp.s
 
 # target to generate assembly for a file
 instances/create_dialog.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/svinlauncher.dir/build.make CMakeFiles/svinlauncher.dir/instances/create_dialog.cpp.s
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(MAKE) $(MAKESILENT) -f gtk/CMakeFiles/svinlauncher.dir/build.make gtk/CMakeFiles/svinlauncher.dir/instances/create_dialog.cpp.s
 .PHONY : instances/create_dialog.cpp.s
 
 instances/instance_list.o: instances/instance_list.cpp.o
@@ -312,7 +314,7 @@ instances/instance_list.o: instances/instance_list.cpp.o
 
 # target to build an object file
 instances/instance_list.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/svinlauncher.dir/build.make CMakeFiles/svinlauncher.dir/instances/instance_list.cpp.o
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(MAKE) $(MAKESILENT) -f gtk/CMakeFiles/svinlauncher.dir/build.make gtk/CMakeFiles/svinlauncher.dir/instances/instance_list.cpp.o
 .PHONY : instances/instance_list.cpp.o
 
 instances/instance_list.i: instances/instance_list.cpp.i
@@ -320,7 +322,7 @@ instances/instance_list.i: instances/instance_list.cpp.i
 
 # target to preprocess a source file
 instances/instance_list.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/svinlauncher.dir/build.make CMakeFiles/svinlauncher.dir/instances/instance_list.cpp.i
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(MAKE) $(MAKESILENT) -f gtk/CMakeFiles/svinlauncher.dir/build.make gtk/CMakeFiles/svinlauncher.dir/instances/instance_list.cpp.i
 .PHONY : instances/instance_list.cpp.i
 
 instances/instance_list.s: instances/instance_list.cpp.s
@@ -328,7 +330,7 @@ instances/instance_list.s: instances/instance_list.cpp.s
 
 # target to generate assembly for a file
 instances/instance_list.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/svinlauncher.dir/build.make CMakeFiles/svinlauncher.dir/instances/instance_list.cpp.s
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(MAKE) $(MAKESILENT) -f gtk/CMakeFiles/svinlauncher.dir/build.make gtk/CMakeFiles/svinlauncher.dir/instances/instance_list.cpp.s
 .PHONY : instances/instance_list.cpp.s
 
 instances/instance_store.o: instances/instance_store.cpp.o
@@ -336,7 +338,7 @@ instances/instance_store.o: instances/instance_store.cpp.o
 
 # target to build an object file
 instances/instance_store.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/svinlauncher.dir/build.make CMakeFiles/svinlauncher.dir/instances/instance_store.cpp.o
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(MAKE) $(MAKESILENT) -f gtk/CMakeFiles/svinlauncher.dir/build.make gtk/CMakeFiles/svinlauncher.dir/instances/instance_store.cpp.o
 .PHONY : instances/instance_store.cpp.o
 
 instances/instance_store.i: instances/instance_store.cpp.i
@@ -344,7 +346,7 @@ instances/instance_store.i: instances/instance_store.cpp.i
 
 # target to preprocess a source file
 instances/instance_store.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/svinlauncher.dir/build.make CMakeFiles/svinlauncher.dir/instances/instance_store.cpp.i
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(MAKE) $(MAKESILENT) -f gtk/CMakeFiles/svinlauncher.dir/build.make gtk/CMakeFiles/svinlauncher.dir/instances/instance_store.cpp.i
 .PHONY : instances/instance_store.cpp.i
 
 instances/instance_store.s: instances/instance_store.cpp.s
@@ -352,7 +354,7 @@ instances/instance_store.s: instances/instance_store.cpp.s
 
 # target to generate assembly for a file
 instances/instance_store.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/svinlauncher.dir/build.make CMakeFiles/svinlauncher.dir/instances/instance_store.cpp.s
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(MAKE) $(MAKESILENT) -f gtk/CMakeFiles/svinlauncher.dir/build.make gtk/CMakeFiles/svinlauncher.dir/instances/instance_store.cpp.s
 .PHONY : instances/instance_store.cpp.s
 
 instances/launch.o: instances/launch.cpp.o
@@ -360,7 +362,7 @@ instances/launch.o: instances/launch.cpp.o
 
 # target to build an object file
 instances/launch.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/svinlauncher.dir/build.make CMakeFiles/svinlauncher.dir/instances/launch.cpp.o
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(MAKE) $(MAKESILENT) -f gtk/CMakeFiles/svinlauncher.dir/build.make gtk/CMakeFiles/svinlauncher.dir/instances/launch.cpp.o
 .PHONY : instances/launch.cpp.o
 
 instances/launch.i: instances/launch.cpp.i
@@ -368,7 +370,7 @@ instances/launch.i: instances/launch.cpp.i
 
 # target to preprocess a source file
 instances/launch.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/svinlauncher.dir/build.make CMakeFiles/svinlauncher.dir/instances/launch.cpp.i
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(MAKE) $(MAKESILENT) -f gtk/CMakeFiles/svinlauncher.dir/build.make gtk/CMakeFiles/svinlauncher.dir/instances/launch.cpp.i
 .PHONY : instances/launch.cpp.i
 
 instances/launch.s: instances/launch.cpp.s
@@ -376,7 +378,7 @@ instances/launch.s: instances/launch.cpp.s
 
 # target to generate assembly for a file
 instances/launch.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/svinlauncher.dir/build.make CMakeFiles/svinlauncher.dir/instances/launch.cpp.s
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(MAKE) $(MAKESILENT) -f gtk/CMakeFiles/svinlauncher.dir/build.make gtk/CMakeFiles/svinlauncher.dir/instances/launch.cpp.s
 .PHONY : instances/launch.cpp.s
 
 minecraft/http.o: minecraft/http.cpp.o
@@ -384,7 +386,7 @@ minecraft/http.o: minecraft/http.cpp.o
 
 # target to build an object file
 minecraft/http.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/svinlauncher.dir/build.make CMakeFiles/svinlauncher.dir/minecraft/http.cpp.o
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(MAKE) $(MAKESILENT) -f gtk/CMakeFiles/svinlauncher.dir/build.make gtk/CMakeFiles/svinlauncher.dir/minecraft/http.cpp.o
 .PHONY : minecraft/http.cpp.o
 
 minecraft/http.i: minecraft/http.cpp.i
@@ -392,7 +394,7 @@ minecraft/http.i: minecraft/http.cpp.i
 
 # target to preprocess a source file
 minecraft/http.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/svinlauncher.dir/build.make CMakeFiles/svinlauncher.dir/minecraft/http.cpp.i
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(MAKE) $(MAKESILENT) -f gtk/CMakeFiles/svinlauncher.dir/build.make gtk/CMakeFiles/svinlauncher.dir/minecraft/http.cpp.i
 .PHONY : minecraft/http.cpp.i
 
 minecraft/http.s: minecraft/http.cpp.s
@@ -400,7 +402,7 @@ minecraft/http.s: minecraft/http.cpp.s
 
 # target to generate assembly for a file
 minecraft/http.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/svinlauncher.dir/build.make CMakeFiles/svinlauncher.dir/minecraft/http.cpp.s
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(MAKE) $(MAKESILENT) -f gtk/CMakeFiles/svinlauncher.dir/build.make gtk/CMakeFiles/svinlauncher.dir/minecraft/http.cpp.s
 .PHONY : minecraft/http.cpp.s
 
 minecraft/installer.o: minecraft/installer.cpp.o
@@ -408,7 +410,7 @@ minecraft/installer.o: minecraft/installer.cpp.o
 
 # target to build an object file
 minecraft/installer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/svinlauncher.dir/build.make CMakeFiles/svinlauncher.dir/minecraft/installer.cpp.o
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(MAKE) $(MAKESILENT) -f gtk/CMakeFiles/svinlauncher.dir/build.make gtk/CMakeFiles/svinlauncher.dir/minecraft/installer.cpp.o
 .PHONY : minecraft/installer.cpp.o
 
 minecraft/installer.i: minecraft/installer.cpp.i
@@ -416,7 +418,7 @@ minecraft/installer.i: minecraft/installer.cpp.i
 
 # target to preprocess a source file
 minecraft/installer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/svinlauncher.dir/build.make CMakeFiles/svinlauncher.dir/minecraft/installer.cpp.i
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(MAKE) $(MAKESILENT) -f gtk/CMakeFiles/svinlauncher.dir/build.make gtk/CMakeFiles/svinlauncher.dir/minecraft/installer.cpp.i
 .PHONY : minecraft/installer.cpp.i
 
 minecraft/installer.s: minecraft/installer.cpp.s
@@ -424,7 +426,7 @@ minecraft/installer.s: minecraft/installer.cpp.s
 
 # target to generate assembly for a file
 minecraft/installer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/svinlauncher.dir/build.make CMakeFiles/svinlauncher.dir/minecraft/installer.cpp.s
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(MAKE) $(MAKESILENT) -f gtk/CMakeFiles/svinlauncher.dir/build.make gtk/CMakeFiles/svinlauncher.dir/minecraft/installer.cpp.s
 .PHONY : minecraft/installer.cpp.s
 
 minecraft/libraries.o: minecraft/libraries.cpp.o
@@ -432,7 +434,7 @@ minecraft/libraries.o: minecraft/libraries.cpp.o
 
 # target to build an object file
 minecraft/libraries.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/svinlauncher.dir/build.make CMakeFiles/svinlauncher.dir/minecraft/libraries.cpp.o
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(MAKE) $(MAKESILENT) -f gtk/CMakeFiles/svinlauncher.dir/build.make gtk/CMakeFiles/svinlauncher.dir/minecraft/libraries.cpp.o
 .PHONY : minecraft/libraries.cpp.o
 
 minecraft/libraries.i: minecraft/libraries.cpp.i
@@ -440,7 +442,7 @@ minecraft/libraries.i: minecraft/libraries.cpp.i
 
 # target to preprocess a source file
 minecraft/libraries.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/svinlauncher.dir/build.make CMakeFiles/svinlauncher.dir/minecraft/libraries.cpp.i
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(MAKE) $(MAKESILENT) -f gtk/CMakeFiles/svinlauncher.dir/build.make gtk/CMakeFiles/svinlauncher.dir/minecraft/libraries.cpp.i
 .PHONY : minecraft/libraries.cpp.i
 
 minecraft/libraries.s: minecraft/libraries.cpp.s
@@ -448,7 +450,7 @@ minecraft/libraries.s: minecraft/libraries.cpp.s
 
 # target to generate assembly for a file
 minecraft/libraries.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/svinlauncher.dir/build.make CMakeFiles/svinlauncher.dir/minecraft/libraries.cpp.s
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(MAKE) $(MAKESILENT) -f gtk/CMakeFiles/svinlauncher.dir/build.make gtk/CMakeFiles/svinlauncher.dir/minecraft/libraries.cpp.s
 .PHONY : minecraft/libraries.cpp.s
 
 minecraft/version_catalog.o: minecraft/version_catalog.cpp.o
@@ -456,7 +458,7 @@ minecraft/version_catalog.o: minecraft/version_catalog.cpp.o
 
 # target to build an object file
 minecraft/version_catalog.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/svinlauncher.dir/build.make CMakeFiles/svinlauncher.dir/minecraft/version_catalog.cpp.o
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(MAKE) $(MAKESILENT) -f gtk/CMakeFiles/svinlauncher.dir/build.make gtk/CMakeFiles/svinlauncher.dir/minecraft/version_catalog.cpp.o
 .PHONY : minecraft/version_catalog.cpp.o
 
 minecraft/version_catalog.i: minecraft/version_catalog.cpp.i
@@ -464,7 +466,7 @@ minecraft/version_catalog.i: minecraft/version_catalog.cpp.i
 
 # target to preprocess a source file
 minecraft/version_catalog.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/svinlauncher.dir/build.make CMakeFiles/svinlauncher.dir/minecraft/version_catalog.cpp.i
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(MAKE) $(MAKESILENT) -f gtk/CMakeFiles/svinlauncher.dir/build.make gtk/CMakeFiles/svinlauncher.dir/minecraft/version_catalog.cpp.i
 .PHONY : minecraft/version_catalog.cpp.i
 
 minecraft/version_catalog.s: minecraft/version_catalog.cpp.s
@@ -472,7 +474,7 @@ minecraft/version_catalog.s: minecraft/version_catalog.cpp.s
 
 # target to generate assembly for a file
 minecraft/version_catalog.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/svinlauncher.dir/build.make CMakeFiles/svinlauncher.dir/minecraft/version_catalog.cpp.s
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(MAKE) $(MAKESILENT) -f gtk/CMakeFiles/svinlauncher.dir/build.make gtk/CMakeFiles/svinlauncher.dir/minecraft/version_catalog.cpp.s
 .PHONY : minecraft/version_catalog.cpp.s
 
 ui/install_progress.o: ui/install_progress.cpp.o
@@ -480,7 +482,7 @@ ui/install_progress.o: ui/install_progress.cpp.o
 
 # target to build an object file
 ui/install_progress.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/svinlauncher.dir/build.make CMakeFiles/svinlauncher.dir/ui/install_progress.cpp.o
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(MAKE) $(MAKESILENT) -f gtk/CMakeFiles/svinlauncher.dir/build.make gtk/CMakeFiles/svinlauncher.dir/ui/install_progress.cpp.o
 .PHONY : ui/install_progress.cpp.o
 
 ui/install_progress.i: ui/install_progress.cpp.i
@@ -488,7 +490,7 @@ ui/install_progress.i: ui/install_progress.cpp.i
 
 # target to preprocess a source file
 ui/install_progress.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/svinlauncher.dir/build.make CMakeFiles/svinlauncher.dir/ui/install_progress.cpp.i
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(MAKE) $(MAKESILENT) -f gtk/CMakeFiles/svinlauncher.dir/build.make gtk/CMakeFiles/svinlauncher.dir/ui/install_progress.cpp.i
 .PHONY : ui/install_progress.cpp.i
 
 ui/install_progress.s: ui/install_progress.cpp.s
@@ -496,7 +498,7 @@ ui/install_progress.s: ui/install_progress.cpp.s
 
 # target to generate assembly for a file
 ui/install_progress.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/svinlauncher.dir/build.make CMakeFiles/svinlauncher.dir/ui/install_progress.cpp.s
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(MAKE) $(MAKESILENT) -f gtk/CMakeFiles/svinlauncher.dir/build.make gtk/CMakeFiles/svinlauncher.dir/ui/install_progress.cpp.s
 .PHONY : ui/install_progress.cpp.s
 
 # Help Target
@@ -563,6 +565,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/home/uriy/Рабочий стол/SvinLaucnher/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

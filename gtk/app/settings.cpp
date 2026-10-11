@@ -3,8 +3,44 @@
 #include "../instances/instance_store.hpp"
 
 #include <adwaita.h>
+#include <clocale>
+#include <cstdlib>
+#include <filesystem>
 
 static const char* language_codes[] = {"", "ru", "en", "es", "pt_BR", "fr", "de", "zh_CN", "ja", "ko", "pl"};
+
+static void apply_language(App* app, const std::string& language)
+{
+    app->language = language;
+    const std::string language_chain = language.empty() ? app->system_language :
+        (language == "ru" ? language : language + ":en");
+    if (language_chain.empty()) unsetenv("LANGUAGE");
+    else setenv("LANGUAGE", language_chain.c_str(), 1);
+
+    const char* current_locale = setlocale(LC_MESSAGES, nullptr);
+    const std::string saved_locale = current_locale ? current_locale : "C";
+    setlocale(LC_MESSAGES, "C");
+    setlocale(LC_MESSAGES, saved_locale.c_str());
+
+    std::string catalog_language = language_chain.substr(0, language_chain.find(':'));
+    const auto suffix = catalog_language.find_first_of(".@-");
+    if (suffix != std::string::npos) catalog_language.resize(suffix);
+    const auto user_locale = std::filesystem::path(g_get_user_data_dir()) / "locale";
+    const auto user_catalog = user_locale / (catalog_language.empty() ? "en" : catalog_language) /
+                              "LC_MESSAGES/svinlauncher.mo";
+    bindtextdomain("svinlauncher", std::filesystem::is_regular_file(user_catalog) ? user_locale.c_str() : SVIN_LOCALE_DIR);
+    bind_textdomain_codeset("svinlauncher", "UTF-8");
+    textdomain("svinlauncher");
+}
+
+static gboolean rebuild_window(gpointer data)
+{
+    auto* app = static_cast<App*>(data);
+    if (app->window) gtk_window_destroy(app->window);
+    activate(G_APPLICATION(app->application), app);
+    notify(app, tr("Язык интерфейса изменён"));
+    return G_SOURCE_REMOVE;
+}
 
 static void settings_response(AdwAlertDialog* dialog, const char* response, gpointer data)
 {
@@ -17,8 +53,8 @@ static void settings_response(AdwAlertDialog* dialog, const char* response, gpoi
         notify(app, tr("Не удалось сохранить язык интерфейса"));
         return;
     }
-    app->language = language;
-    notify(app, tr("Язык сохранён. Перезапустите SvinLauncher, чтобы применить его."));
+    apply_language(app, language);
+    g_idle_add(rebuild_window, app);
 }
 
 void show_settings(GtkButton*, gpointer data)

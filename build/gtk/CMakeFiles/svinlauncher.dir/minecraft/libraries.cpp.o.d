@@ -1,8 +1,8 @@
-CMakeFiles/svinlauncher.dir/minecraft/libraries.cpp.o: \
- /home/uriy/Рабочий\ стол/PrismLauncher-Cracked/gtk/minecraft/libraries.cpp \
+gtk/CMakeFiles/svinlauncher.dir/minecraft/libraries.cpp.o: \
+ /home/uriy/Рабочий\ стол/SvinLaucnher/gtk/minecraft/libraries.cpp \
  /usr/include/stdc-predef.h \
- /home/uriy/Рабочий\ стол/PrismLauncher-Cracked/gtk/minecraft/libraries.hpp \
- /home/uriy/Рабочий\ стол/PrismLauncher-Cracked/gtk/minecraft/json.hpp \
+ /home/uriy/Рабочий\ стол/SvinLaucnher/gtk/minecraft/libraries.hpp \
+ /home/uriy/Рабочий\ стол/SvinLaucnher/gtk/minecraft/json.hpp \
  /usr/include/c++/16/cctype \
  /usr/include/c++/16/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \
@@ -90,18 +90,16 @@ CMakeFiles/svinlauncher.dir/minecraft/libraries.cpp.o: \
  /usr/include/bits/pthreadtypes-arch.h \
  /usr/include/bits/atomic_wide_counter.h /usr/include/bits/struct_mutex.h \
  /usr/include/bits/struct_rwlock.h /usr/include/alloca.h \
- /usr/include/bits/stdlib-bsearch.h /usr/include/bits/stdlib-float.h \
- /usr/include/c++/16/bits/std_abs.h /usr/include/c++/16/cstdio \
- /usr/include/stdio.h /usr/include/bits/types/__fpos_t.h \
- /usr/include/bits/types/__fpos64_t.h \
+ /usr/include/bits/stdlib-float.h /usr/include/c++/16/bits/std_abs.h \
+ /usr/include/c++/16/cstdio /usr/include/stdio.h \
+ /usr/include/bits/types/__fpos_t.h /usr/include/bits/types/__fpos64_t.h \
  /usr/include/bits/types/struct_FILE.h \
  /usr/include/bits/types/cookie_io_functions_t.h \
- /usr/include/bits/stdio_lim.h /usr/include/bits/stdio.h \
- /usr/include/c++/16/cerrno /usr/include/errno.h \
- /usr/include/bits/errno.h /usr/include/linux/errno.h \
- /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
- /usr/include/asm-generic/errno-base.h /usr/include/bits/types/error_t.h \
- /usr/include/c++/16/bits/charconv.h \
+ /usr/include/bits/stdio_lim.h /usr/include/c++/16/cerrno \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/bits/types/error_t.h /usr/include/c++/16/bits/charconv.h \
  /usr/include/c++/16/bits/basic_string.tcc \
  /usr/include/c++/16/bits/memory_resource.h /usr/include/c++/16/cstddef \
  /usr/include/c++/16/bits/uses_allocator.h \
@@ -183,11 +181,11 @@ CMakeFiles/svinlauncher.dir/minecraft/libraries.cpp.o: \
  /usr/include/c++/16/bits/refwrap.h /usr/include/c++/16/bits/unique_ptr.h \
  /usr/include/c++/16/bits/align.h /usr/include/c++/16/bits/fs_dir.h \
  /usr/include/c++/16/bits/fs_ops.h \
- /home/uriy/Рабочий\ стол/PrismLauncher-Cracked/gtk/minecraft/http.hpp \
- /home/uriy/Рабочий\ стол/PrismLauncher-Cracked/gtk/minecraft/installer.hpp \
+ /home/uriy/Рабочий\ стол/SvinLaucnher/gtk/minecraft/http.hpp \
+ /home/uriy/Рабочий\ стол/SvinLaucnher/gtk/minecraft/installer.hpp \
  /usr/include/c++/16/functional /usr/include/c++/16/bits/std_function.h \
  /usr/include/c++/16/array /usr/include/c++/16/bits/binders.h \
- /home/uriy/Рабочий\ стол/PrismLauncher-Cracked/gtk/minecraft/../app/i18n.hpp \
+ /home/uriy/Рабочий\ стол/SvinLaucnher/gtk/minecraft/../app/i18n.hpp \
  /usr/include/zlib.h /usr/include/zconf.h \
  /usr/include/zlib_name_mangling.h /usr/include/unistd.h \
  /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \

@@ -1,4 +1,4 @@
-# Install script for directory: /home/uriy/Рабочий стол/PrismLauncher-Cracked/gtk
+# Install script for directory: /home/uriy/Рабочий стол/SvinLaucnher/gtk
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Release")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -49,7 +49,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/svinlauncher"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/svinlauncher")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk/svinlauncher")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/svinlauncher" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/svinlauncher")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -59,72 +59,56 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/applications" TYPE FILE RENAME "org.svinlauncher.SvinLauncher.desktop" FILES "/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/svinlauncher.desktop")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/applications" TYPE FILE RENAME "org.svinlauncher.SvinLauncher.desktop" FILES "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk/svinlauncher.desktop")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/icons/hicolor/256x256/apps" TYPE FILE RENAME "org.svinlauncher.SvinLauncher.png" FILES "/home/uriy/Рабочий стол/PrismLauncher-Cracked/gtk/assets/org.svinlauncher.SvinLauncher.png")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/icons/hicolor/256x256/apps" TYPE FILE RENAME "org.svinlauncher.SvinLauncher.png" FILES "/home/uriy/Рабочий стол/SvinLaucnher/gtk/assets/org.svinlauncher.SvinLauncher.png")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/locale/ru/LC_MESSAGES" TYPE FILE FILES "/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/locale/ru/LC_MESSAGES/svinlauncher.mo")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/locale/ru/LC_MESSAGES" TYPE FILE FILES "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk/locale/ru/LC_MESSAGES/svinlauncher.mo")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/locale/en/LC_MESSAGES" TYPE FILE FILES "/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/locale/en/LC_MESSAGES/svinlauncher.mo")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/locale/en/LC_MESSAGES" TYPE FILE FILES "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk/locale/en/LC_MESSAGES/svinlauncher.mo")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/locale/es/LC_MESSAGES" TYPE FILE FILES "/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/locale/es/LC_MESSAGES/svinlauncher.mo")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/locale/es/LC_MESSAGES" TYPE FILE FILES "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk/locale/es/LC_MESSAGES/svinlauncher.mo")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/locale/pt_BR/LC_MESSAGES" TYPE FILE FILES "/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/locale/pt_BR/LC_MESSAGES/svinlauncher.mo")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/locale/pt_BR/LC_MESSAGES" TYPE FILE FILES "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk/locale/pt_BR/LC_MESSAGES/svinlauncher.mo")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/locale/fr/LC_MESSAGES" TYPE FILE FILES "/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/locale/fr/LC_MESSAGES/svinlauncher.mo")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/locale/fr/LC_MESSAGES" TYPE FILE FILES "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk/locale/fr/LC_MESSAGES/svinlauncher.mo")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/locale/de/LC_MESSAGES" TYPE FILE FILES "/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/locale/de/LC_MESSAGES/svinlauncher.mo")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/locale/de/LC_MESSAGES" TYPE FILE FILES "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk/locale/de/LC_MESSAGES/svinlauncher.mo")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/locale/zh_CN/LC_MESSAGES" TYPE FILE FILES "/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/locale/zh_CN/LC_MESSAGES/svinlauncher.mo")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/locale/zh_CN/LC_MESSAGES" TYPE FILE FILES "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk/locale/zh_CN/LC_MESSAGES/svinlauncher.mo")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/locale/ja/LC_MESSAGES" TYPE FILE FILES "/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/locale/ja/LC_MESSAGES/svinlauncher.mo")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/locale/ja/LC_MESSAGES" TYPE FILE FILES "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk/locale/ja/LC_MESSAGES/svinlauncher.mo")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/locale/ko/LC_MESSAGES" TYPE FILE FILES "/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/locale/ko/LC_MESSAGES/svinlauncher.mo")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/locale/ko/LC_MESSAGES" TYPE FILE FILES "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk/locale/ko/LC_MESSAGES/svinlauncher.mo")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/locale/pl/LC_MESSAGES" TYPE FILE FILES "/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/locale/pl/LC_MESSAGES/svinlauncher.mo")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/locale/pl/LC_MESSAGES" TYPE FILE FILES "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk/locale/pl/LC_MESSAGES/svinlauncher.mo")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/install_local_manifest.txt"
-     "${CMAKE_INSTALL_MANIFEST_CONTENT}")
-endif()
-if(CMAKE_INSTALL_COMPONENT)
-  if(CMAKE_INSTALL_COMPONENT MATCHES "^[a-zA-Z0-9_.+-]+$")
-    set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
-  else()
-    string(MD5 CMAKE_INST_COMP_HASH "${CMAKE_INSTALL_COMPONENT}")
-    set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INST_COMP_HASH}.txt")
-    unset(CMAKE_INST_COMP_HASH)
-  endif()
-else()
-  set(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/home/uriy/Рабочий стол/SvinLaucnher/build/gtk/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

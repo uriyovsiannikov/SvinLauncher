@@ -1,0 +1,16 @@
+# CMake build output
+/build/
+/cmake-build-*/
+CMakeUserPresets.json
+
+# Compiled files
+*.o
+*.a
+*.so
+*.mo
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+*.user
