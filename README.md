@@ -1,10 +1,12 @@
 # SvinLauncher
 
-<p align="center"><img src="logo.png" alt="SvinLauncher logo" width="180"></p>
+<p align="center"><img src="other/logo.png" alt="SvinLauncher logo" width="180"></p>
 
 A lightweight **Minecraft: Java Edition** launcher for GNOME, built with GTK4 and libadwaita.
 
 Create vanilla instances, download game files from Minecraft servers, and launch the game directly through Java — no external launcher required.
+
+<p align="center"><img src="other/screenshot1.png" alt="SvinLauncher running on GNOME" width="800"></p>
 
 ## Features
 
