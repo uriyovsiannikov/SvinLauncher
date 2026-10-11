@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Prism Launcher (Cracked)
+Comment=Управление экземплярами Minecraft в GNOME
+Exec=prismlauncher-gtk
+Icon=org.prismlauncher.PrismLauncher
+Terminal=false
+Categories=Game;
+StartupNotify=true

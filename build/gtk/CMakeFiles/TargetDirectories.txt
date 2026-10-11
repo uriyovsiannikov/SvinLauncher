@@ -1,0 +1,8 @@
+/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/CMakeFiles/svinlauncher.dir
+/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/CMakeFiles/svinlauncher-translations.dir
+/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/CMakeFiles/edit_cache.dir
+/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/CMakeFiles/rebuild_cache.dir
+/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/CMakeFiles/list_install_components.dir
+/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/CMakeFiles/install.dir
+/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/CMakeFiles/install/local.dir
+/home/uriy/Рабочий стол/PrismLauncher-Cracked/build/gtk/CMakeFiles/install/strip.dir

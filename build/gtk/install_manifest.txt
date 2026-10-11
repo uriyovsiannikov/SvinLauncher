@@ -1,0 +1,13 @@
+/home/uriy/.local/bin/svinlauncher
+/home/uriy/.local/share/applications/org.svinlauncher.SvinLauncher.desktop
+/home/uriy/.local/share/icons/hicolor/256x256/apps/org.svinlauncher.SvinLauncher.png
+/home/uriy/.local/share/locale/ru/LC_MESSAGES/svinlauncher.mo
+/home/uriy/.local/share/locale/en/LC_MESSAGES/svinlauncher.mo
+/home/uriy/.local/share/locale/es/LC_MESSAGES/svinlauncher.mo
+/home/uriy/.local/share/locale/pt_BR/LC_MESSAGES/svinlauncher.mo
+/home/uriy/.local/share/locale/fr/LC_MESSAGES/svinlauncher.mo
+/home/uriy/.local/share/locale/de/LC_MESSAGES/svinlauncher.mo
+/home/uriy/.local/share/locale/zh_CN/LC_MESSAGES/svinlauncher.mo
+/home/uriy/.local/share/locale/ja/LC_MESSAGES/svinlauncher.mo
+/home/uriy/.local/share/locale/ko/LC_MESSAGES/svinlauncher.mo
+/home/uriy/.local/share/locale/pl/LC_MESSAGES/svinlauncher.mo

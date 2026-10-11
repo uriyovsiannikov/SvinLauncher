@@ -1,0 +1,12 @@
+# Hashes of file build rules.
+a3be53d71b045ff15245a9e40307699a CMakeFiles/svinlauncher-translations
+a6c5a29a05c9605d497d38f7665d30d5 locale/de/LC_MESSAGES/svinlauncher.mo
+d0ee1e1782fed34c5d42ffc5a5936c5b locale/en/LC_MESSAGES/svinlauncher.mo
+5d82555831e647e74c70f282117d7a47 locale/es/LC_MESSAGES/svinlauncher.mo
+16888e3695a4125f3e85cb92218d8503 locale/fr/LC_MESSAGES/svinlauncher.mo
+240bbfdb7f7316ee808be089fa9ffca3 locale/ja/LC_MESSAGES/svinlauncher.mo
+616fef674801264f35e7ee0aa0e2b99f locale/ko/LC_MESSAGES/svinlauncher.mo
+4aa852d154dc285c0eb267f5bca0a89c locale/pl/LC_MESSAGES/svinlauncher.mo
+e53281cd976cd61f407b0756cbb16078 locale/pt_BR/LC_MESSAGES/svinlauncher.mo
+ec53f605c7ba9a579b8a0986279d55cf locale/ru/LC_MESSAGES/svinlauncher.mo
+d942e1cc9d689182b4736193f7aa5da5 locale/zh_CN/LC_MESSAGES/svinlauncher.mo

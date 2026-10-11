@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=SvinLauncher
+Comment=Управление экземплярами Minecraft в GNOME
+Exec=svinlauncher
+Icon=org.svinlauncher.SvinLauncher
+Terminal=false
+Categories=Game;
+StartupNotify=true
